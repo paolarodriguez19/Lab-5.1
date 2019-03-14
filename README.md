@@ -8,12 +8,15 @@ using namespace std;
 void main() {
  
  float yards = 0; 
+ 
  float feet = 0; 
+ 
  float inches = 0;
  
  cout << "Welcome to the Yards Calculator" << endl;
  
  cout << "Enter the number of Yards: ";
+ 
  cin >> yards;
  
  feet = yards * 3;
@@ -21,8 +24,11 @@ void main() {
  inches = yards * 36;
  
  cout << "yards : " << yards << endl;
+ 
  cout << "feet : " << feet << endl;
+ 
  cout << "inches: " << inches << endl;
  
  system("pause"); 
+
 }
